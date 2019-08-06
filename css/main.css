@@ -20,3 +20,10 @@ p {
 color: #c09;
 background-color: #b3fbff;
 }
+
+.content {
+border-top: 8px solid #b3fbff;
+border-bottom: 8px solid #b3fbff;
+max-height: 500px;
+background-image: repeating-linear-gradient(-35deg, #d4fdff, #c9fcff, #c9fcff 15px, #b3fbff 10px, #b3fbff 10px);
+}
