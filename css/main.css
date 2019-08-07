@@ -19,6 +19,7 @@ p {
 .btn-ghost:hover {
 color: #c09;
 background-color: #b3fbff;
+border: 3px solid #990073;
 }
 
 .content {
