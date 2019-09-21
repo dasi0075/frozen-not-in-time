@@ -34,17 +34,19 @@ p {
 
 @keyframes blur {
 
-0% {
-filter: blur(0);
-filter: opacity(0);
-}
+  0% {
+    filter: blur(0);
+    filter: opacity(0);
+  }
 
-50% {
-filter: blur(10px);
-filter: opacity(25%);
-}
+  50% {
+    filter: blur(10px);
+    filter: opacity(25%);
+  }
 
-100% {
-filter: blur(0);
-filter: opacity(100%);
+  100% {
+    filter: blur(0);
+    filter: opacity(100%);
+  }
+
 }
