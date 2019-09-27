@@ -8,7 +8,6 @@ h1 {
   transform-origin: left center;
   left: 45px;
   top: 88px;
-
 }
 
 p {
@@ -18,7 +17,6 @@ p {
   max-width: 19em;
   top: 185px;
   left: 57px;
-
 }
 
 .btn-ghost {
@@ -27,7 +25,6 @@ p {
   border-radius: 6px;
   top: 322px;
   left: 57px;
-
 }
 
 .btn-ghost:hover {
