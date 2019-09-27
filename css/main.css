@@ -13,6 +13,12 @@ h1 {
 
 p {
   color: #c09;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+  max-width: 19em;
+  top: 185px;
+  left: 57px;
+
 }
 
 .btn-ghost {
