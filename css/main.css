@@ -43,6 +43,32 @@ p {
   transition: all 3s linear 5s;
 }
 
+.mint-chip {
+  animation: drop 1s linear 1 forwards;
+}
+
+.mint-chip {
+  animation: drop 1s linear 1 forwards;
+}
+
+.chocolate-chip {
+  animation: drop 1s linear 1 forwards;
+}
+
+.vanilla-fudge {
+  animation: drop 1s linear 1 forwards;
+}
+
+.cherry {
+  animation: drop 1s linear 1 forwards;
+}
+
+.cone {
+  animation: drop 1s linear 1 forwards;
+}
+
+
+
 @keyframes blur {
 
   0% {
