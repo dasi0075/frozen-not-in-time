@@ -53,7 +53,7 @@ p {
 .vanilla-fudge {
   animation: drop 1s linear 1 forwards;
   top: 70px;
-  left: 725px
+  left: 725px;
   z-index: 4;
 }
 
@@ -87,6 +87,7 @@ p {
   100% {
     transform: translateY(0%);
   }
+
 }
 
 @keyframes blur {
