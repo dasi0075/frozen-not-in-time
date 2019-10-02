@@ -45,15 +45,17 @@ p {
 
 .cherry {
   animation: drop 1s linear 1 forwards;
-  top: 25px;
-  left: 725px;
+  top: 45px;
+  left: 745px;
+  max-width: 100px;
   z-index: 5;
 }
 
 .vanilla-fudge {
   animation: drop 1s linear 1 forwards;
-  top: 70px;
+  top: 90px;
   left: 725px;
+  max-width: 140px;
   z-index: 4;
 }
 
@@ -61,6 +63,7 @@ p {
   animation: drop 1s linear 1 forwards;
   top: 150px;
   left: 725px;
+  max-width: 140px;
   z-index: 3;
 }
 
@@ -68,13 +71,15 @@ p {
   animation: drop 1s linear 1 forwards;
   top: 200px;
   left: 730px;
+  max-width: 140px;
   z-index: 2;
 }
 
 .cone {
   animation: drop 1s linear 1 forwards;
-  top: 315px;
-  left: 735px;
+  top: 285px;
+  left: 737px;
+  max-width: 125px;
   z-index: 1000;
 }
 
