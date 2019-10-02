@@ -45,22 +45,27 @@ p {
 
 .mint-chip {
   animation: 1s linear 1 forwards;
+  top: 250px;
 }
 
 .chocolate-chip {
   animation: 1s linear 1 forwards;
+  top: 150px;
 }
 
 .vanilla-fudge {
   animation: 1s linear 1 forwards;
+  top: 100px;
 }
 
 .cherry {
   animation: 1s linear 1 forwards;
+  top: 50px;
 }
 
 .cone {
   animation: 1s linear 1 forwards;
+  top: 350px;
 }
 
 @keyframes blur {
