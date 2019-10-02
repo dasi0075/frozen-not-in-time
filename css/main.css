@@ -45,36 +45,36 @@ p {
 
 .mint-chip {
   animation: drop 1s linear 1 forwards;
-  top: 250px;
-  left:
+  top: 225px;
+  left: 725px;
   z-index: 3;
 }
 
 .chocolate-chip {
   animation: drop 1s linear 1 forwards;
   top: 150px;
-  left:
+  left: 735px;
   z-index: 4;
 }
 
 .vanilla-fudge {
   animation: drop 1s linear 1 forwards;
-  top: 100px;
-  left:
+  top: 70px;
+  left: 725px
   z-index: 5;
 }
 
 .cherry {
   animation: drop 1s linear 1 forwards;
-  top: 50px;
-  left:
+  top: 25px;
+  left: 740px;
   z-index: 6;
 }
 
 .cone {
   animation: drop 1s linear 1 forwards;
-  top: 350px;
-  left:
+  top: 315px;
+  left: 735px;
   z-index: 1000;
 }
 
