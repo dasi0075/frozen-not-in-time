@@ -43,32 +43,32 @@ p {
   transition: all 3s linear 5s;
 }
 
-.mint-chip {
+.cherry {
   animation: drop 1s linear 1 forwards;
-  top: 225px;
+  top: 25px;
   left: 725px;
-  z-index: 3;
-}
-
-.chocolate-chip {
-  animation: drop 1s linear 1 forwards;
-  top: 150px;
-  left: 735px;
-  z-index: 4;
+  z-index: 5;
 }
 
 .vanilla-fudge {
   animation: drop 1s linear 1 forwards;
   top: 70px;
   left: 725px
-  z-index: 5;
+  z-index: 4;
 }
 
-.cherry {
+.chocolate-chip {
   animation: drop 1s linear 1 forwards;
-  top: 25px;
-  left: 740px;
-  z-index: 6;
+  top: 150px;
+  left: 725px;
+  z-index: 3;
+}
+
+.mint-chip {
+  animation: drop 1s linear 1 forwards;
+  top: 200px;
+  left: 730px;
+  z-index: 2;
 }
 
 .cone {
