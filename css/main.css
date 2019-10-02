@@ -119,3 +119,39 @@ text {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+  left: 215px;
+  }
+
+  p {
+  left: 215px;
+  }
+
+  .btn {
+  left: 215px;
+  }
+
+  .cherry {
+  left: 965px;
+  }
+
+  .vanilla-fudge {
+  left: 945px;
+  }
+
+  .chocolate-chip {
+  left: 945px;
+  }
+
+  .mint-chip {
+  left: 948px;
+  }
+
+  .cone {
+  left: 955px;
+  }
+
+}
