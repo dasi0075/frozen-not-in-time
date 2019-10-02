@@ -44,33 +44,49 @@ p {
 }
 
 .mint-chip {
-  animation: 1s linear 1 forwards;
+  animation: drop 1s linear 1 forwards;
   top: 250px;
+  left:
   z-index: 3;
 }
 
 .chocolate-chip {
-  animation: 1s linear 1 forwards;
+  animation: drop 1s linear 1 forwards;
   top: 150px;
+  left:
   z-index: 4;
 }
 
 .vanilla-fudge {
-  animation: 1s linear 1 forwards;
+  animation: drop 1s linear 1 forwards;
   top: 100px;
+  left:
   z-index: 5;
 }
 
 .cherry {
-  animation: 1s linear 1 forwards;
+  animation: drop 1s linear 1 forwards;
   top: 50px;
+  left:
   z-index: 6;
 }
 
 .cone {
-  animation: 1s linear 1 forwards;
+  animation: drop 1s linear 1 forwards;
   top: 350px;
+  left:
   z-index: 1000;
+}
+
+@keyframes drop {
+
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @keyframes blur {
