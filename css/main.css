@@ -46,26 +46,31 @@ p {
 .mint-chip {
   animation: 1s linear 1 forwards;
   top: 250px;
+  z-index: 3;
 }
 
 .chocolate-chip {
   animation: 1s linear 1 forwards;
   top: 150px;
+  z-index: 4;
 }
 
 .vanilla-fudge {
   animation: 1s linear 1 forwards;
   top: 100px;
+  z-index: 5;
 }
 
 .cherry {
   animation: 1s linear 1 forwards;
   top: 50px;
+  z-index: 6;
 }
 
 .cone {
   animation: 1s linear 1 forwards;
   top: 350px;
+  z-index: 1000;
 }
 
 @keyframes blur {
