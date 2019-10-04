@@ -64,6 +64,8 @@ text {
   left: 725px;
   max-width: 140px;
   z-index: 4;
+  transform: skewX(1deg);
+  transform: skewY(50deg);
 }
 
 .chocolate-chip {
@@ -130,6 +132,17 @@ text {
   p {
     left: 215px;
   }
+
+  .banner {
+    padding-left: 11em;
+    padding-right: 10em;
+    padding-bottom: 5em;
+  }
+
+  .intro {
+    padding-top: 2em;
+  }
+
 
   .btn {
     left: 215px;
