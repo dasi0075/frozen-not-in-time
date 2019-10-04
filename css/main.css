@@ -37,7 +37,7 @@ p {
   border-top: 8px solid #b3fbff;
   border-bottom: 8px solid #b3fbff;
   max-height: 500px;
-  background-image: repeating-linear-gradient(-35deg, #d4fdff, #c9fcff, #c9fcff 10px, #b3fbff 10px, #b3fbff 10px);
+  background-image: repeating-linear-gradient(-35deg, #d4fdff, #c9fcff, #c9fcff 10px, #b3fbff 15px, #b3fbff 15px);
   text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
   animation: blur 1s linear 1;
   transition: all 3s linear 5s;
