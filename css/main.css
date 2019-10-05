@@ -50,7 +50,7 @@ text {
 }
 
 .cherry {
-  animation: drop 3s linear 1 forwards;
+  animation: drop 5s linear 1 forwards;
   top: 45px;
   left: 745px;
   max-width: 100px;
@@ -58,7 +58,7 @@ text {
 }
 
 .vanilla-fudge {
-  animation: drop 2.5s linear 1 forwards;
+  animation: drop 4s linear 1 forwards;
   top: 90px;
   left: 725px;
   max-width: 140px;
@@ -68,7 +68,7 @@ text {
 }
 
 .chocolate-chip {
-  animation: drop 2s linear 1 forwards;
+  animation: drop 3s linear 1 forwards;
   top: 150px;
   left: 725px;
   max-width: 140px;
@@ -76,7 +76,7 @@ text {
 }
 
 .mint-chip {
-  animation: drop 1.5s linear 1 forwards;
+  animation: drop 2s linear 1 forwards;
   top: 200px;
   left: 730px;
   max-width: 140px;
