@@ -1,5 +1,13 @@
-html {
+
+.content {
+  background-image: repeating-linear-gradient(-33deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1.1%, #d4fdff 2%, #c9fcff 2.1%);
+  border-top: 6px solid #b3fbff;
+  border-bottom: 6px solid #b3fbff;
+}
+
+.banner-content {
   font-family: "Fredoka One", sans-serif;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
 }
 
 h1 {
@@ -7,6 +15,7 @@ h1 {
   transform: rotate(-9deg);
   left: 45px;
   top: 88px;
+  animation: text-appears 2s linear;
 }
 
 p {
@@ -15,6 +24,7 @@ p {
   max-width: 19em;
   top: 185px;
   left: 57px;
+  animation: text-appears 2s linear;
 }
 
 .btn-ghost {
@@ -23,28 +33,13 @@ p {
   border-radius: 6px;
   top: 322px;
   left: 57px;
+  animation: text-appears 2s linear;
 }
 
 .btn-ghost:hover {
   color: #c09;
   background-color: #b3fbff;
   border: 3px solid #990073;
-}
-
-.content {
-  border-top: 8px solid #b3fbff;
-  border-bottom: 8px solid #b3fbff;
-  max-height: 500px;
-  background-image: repeating-linear-gradient(-35deg, #d4fdff, #c9fcff, #c9fcff 10px, #b3fbff 15px, #b3fbff 15px);
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
-  transition: all 1s linear;
-}
-
-.text {
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
-  animation: blur 2s linear;
-  transition: all 1s linear;
-  max-width: 19em;
 }
 
 .cherry {
@@ -101,7 +96,7 @@ p {
 
 }
 
-@keyframes blur {
+@keyframes text-appears {
 
   0% {
     filter: blur(10px);
@@ -111,53 +106,6 @@ p {
   100% {
     filter: blur(0);
     filter: opacity(100%);
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  h1 {
-    left: 215px;
-  }
-
-  p {
-    left: 215px;
-  }
-
-  .banner {
-    padding-left: 11em;
-    padding-right: 10em;
-    padding-bottom: 5em;
-  }
-
-  .intro {
-    padding-top: 2em;
-  }
-
-
-  .btn {
-    left: 215px;
-  }
-
-  .cherry {
-    left: 965px;
-  }
-
-  .vanilla-fudge {
-    left: 945px;
-  }
-
-  .chocolate-chip {
-    left: 945px;
-  }
-
-  .mint-chip {
-    left: 948px;
-  }
-
-  .cone {
-    left: 955px;
   }
 
 }
