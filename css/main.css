@@ -15,7 +15,12 @@ h1 {
   transform: rotate(-9deg);
   left: 45px;
   top: 88px;
-  animation: text-appears 2s linear;
+  filter: blur(12px);
+  position: relative;
+  opacity: 0;
+  transform-origin: left center;
+
+  animation: text-appears .2s 1.2s ease-in forwards;
 }
 
 p {
@@ -24,7 +29,8 @@ p {
   max-width: 19em;
   top: 185px;
   left: 57px;
-  animation: text-appears 2s linear;
+
+  animation: text-appears .2s 1.2s ease-in forwards;
 }
 
 .btn-ghost {
@@ -33,13 +39,18 @@ p {
   border-radius: 6px;
   top: 322px;
   left: 57px;
-  animation: text-appears 2s linear;
+
+  animation: text-appears .2s 1.2s ease-in forwards;
 }
 
 .btn-ghost:hover {
   color: #c09;
   background-color: #b3fbff;
   border: 3px solid #990073;
+}
+
+.icecream {
+
 }
 
 .cherry {
