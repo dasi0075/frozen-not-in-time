@@ -13,8 +13,7 @@
 h1 {
   color: #990073;
   transform: rotate(-9deg);
-  left: 45px;
-  top: 88px;
+  left: -.15em;
   filter: blur(12px);
   position: relative;
   opacity: 0;
@@ -26,9 +25,12 @@ h1 {
 p {
   color: #c09;
   transform: rotate(-5deg);
+  left: -.15em;
+  filter: blur(12px);
+  position: relative;
+  opacity: 0;
   max-width: 19em;
-  top: 185px;
-  left: 57px;
+  transform-origin: left center;
 
   animation: text-appears .2s 1.2s ease-in forwards;
 }
@@ -37,8 +39,11 @@ p {
   color: #c09;
   border-color: #990073;
   border-radius: 6px;
-  top: 322px;
-  left: 57px;
+  left: -.15em;
+  filter: blur(12px);
+  position: relative;
+  opacity: 0;
+  transform-origin: left center;
 
   animation: text-appears .2s 1.2s ease-in forwards;
 }
@@ -50,7 +55,7 @@ p {
 }
 
 .icecream {
-
+  min-height: 490px;
 }
 
 .cherry {
@@ -111,12 +116,12 @@ p {
 
   0% {
     filter: blur(10px);
-    filter: opacity(0);
+    opacity: 0;
   }
 
   100% {
     filter: blur(0);
-    filter: opacity(100%);
+    opacity: 1;
   }
 
 }
