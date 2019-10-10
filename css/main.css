@@ -68,44 +68,22 @@ p {
 
 .cone {
   animation: drop .5s linear 1 forwards;
-  /* top: 285px;
-  left: 737px;
-  max-width: 125px;
-  z-index: 1000; */
 }
 
 .mint-chip {
   animation: drop .75s linear 1 forwards;
-  /* top: 200px;
-  left: 730px;
-  max-width: 140px;
-  z-index: 2; */
 }
 
 .chocolate-chip {
   animation: drop 1s linear 1 forwards;
-  /* top: 150px;
-  left: 725px;
-  max-width: 140px;
-  z-index: 3; */
 }
 
 .vanilla-fudge {
   animation: drop 1.2s linear 1 forwards;
-  /* top: 90px;
-  left: 725px;
-  max-width: 140px;
-  z-index: 4;
-  transform: skewX(1deg);
-  transform: skewY(50deg); */
 }
 
 .cherry {
   animation: drop 1.5s linear 1 forwards;
-  /* top: 45px;
-  left: 745px;
-  max-width: 100px;
-  z-index: 5; */
 }
 
 @keyframes drop {
