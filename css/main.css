@@ -67,33 +67,84 @@ p {
 }
 
 .cone {
-  animation: drop .2s linear 1 forwards;
+  animation: cone-drop .2s linear 1 forwards;
 }
 
 .mint-chip {
-  animation: drop .5s linear 1 forwards;
+  animation: mint-drop .5s linear 1 forwards;
 }
 
 .chocolate-chip {
-  animation: drop .75s linear 1 forwards;
+  animation: choco-drop .75s linear 1 forwards;
+  z-index: 1;
 }
 
 .vanilla-fudge {
-  animation: drop 1s linear 1 forwards;
+  animation: vanilla-drop 1s linear 1 forwards;
+  z-index: 2;
 }
 
 .cherry {
-  animation: drop 1.2s linear 1 forwards;
+  animation: cherry-drop 1.2s linear 1 forwards;
+  z-index: 1000;
 }
 
-@keyframes drop {
+@keyframes cone-drop {
 
   0% {
-    transform: translateY(-100%);
+    bottom: 100%;
   }
 
   100% {
-    transform: translateY(0%);
+    bottom: 0;
+  }
+
+}
+
+@keyframes mint-drop {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 100px;
+  }
+
+}
+
+@keyframes choco-drop {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 180px;
+  }
+
+}
+
+@keyframes vanilla-drop {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 250px;
+  }
+
+}
+
+@keyframes cherry-drop {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 330px;
   }
 
 }
